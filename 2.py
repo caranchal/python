@@ -10,7 +10,7 @@ comp_select = 0
 for i in range(3):
     print("\t-----------ROUND  " + str(i + 1)+"--")
     comp_select = random.choice("rps")
-
+    player_select = ""
     while True:
         if (player_select == "r") or (player_select == "p") or (player_select == "s"):
             break
